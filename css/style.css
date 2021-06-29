@@ -101,5 +101,8 @@ section article li {
 section article {
     padding-bottom: 80px;
 }
+section article i {
+    font-size: 10px;
+}
 
 
