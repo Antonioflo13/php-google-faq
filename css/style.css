@@ -8,6 +8,10 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+h3 {
+    font-weight: 400;
+    color: #606468;
+}
 
 .wrapper {
     width: 95%;
@@ -18,7 +22,10 @@ body {
 
 /* nav */
 nav {
-    padding: 2px 0;
+    position: fixed;
+    width: 100%;
+    padding: 2px 20px;
+    border-bottom: 1px solid #606468;
 }
 
 /* nav-top */
@@ -27,15 +34,46 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.nav-top .nav-left {
+.nav-top .nav-left,
+.nav-top .nav-right {
     display: flex;
     align-items: center;
 }
 .nav-top .nav-left img {
-    padding-right: 10px;
     height: 80px;
+    padding-right: 10px;
 }
 .nav-top .nav-right img {
-    width: 100px;
+    width: 50px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.nav-top .nav-right i {
+    font-size: 25px;
+    color: #606468;
+}
+
+/* nav-bottom */
+.nav-bottom .list-inline {
+    list-style: none;
+}
+.nav-bottom .list-inline li {
+    display: inline-block;
+    padding: 0 0 10px 0;
+}
+.nav-bottom .list-inline li a {
+    padding: 0 15px 0 0;
+    font-size: 15px;
+    text-decoration: none;
+    color: #606468;
+}
+:focus .nav-bottom .list-inline li a {
+    border-bottom: 2px solid #3368D6;
+    color: #3368D6;
+}
+
+/* main */
+main {
+    background-color: aqua;
 }
 
