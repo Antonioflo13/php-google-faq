@@ -12,9 +12,22 @@ h3 {
     font-weight: 400;
     color: #606468;
 }
+h4 {
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #3D4144;
+}
+p {
+    color: #606468;
+}
+
+a {
+    color: #3368D6;
+}
 
 .wrapper {
-    width: 95%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -25,7 +38,8 @@ nav {
     position: fixed;
     width: 100%;
     padding: 2px 20px;
-    border-bottom: 1px solid #606468;
+    border-bottom: 1px solid #b7b7b8;
+    background-color: white;
 }
 
 /* nav-top */
@@ -74,6 +88,18 @@ nav {
 
 /* main */
 main {
-    background-color: aqua;
+    padding-top: 250px;
 }
+
+section article ol {
+    padding-left: 20px;
+    color: #606468;
+}
+section article li {
+    padding-bottom: 20px;
+}
+section article {
+    padding-bottom: 80px;
+}
+
 
